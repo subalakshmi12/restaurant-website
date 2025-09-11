@@ -47,3 +47,8 @@ header nav a:hover {
   width: 100%;
   border-radius: 10px;
 }
+.about img{
+  width:200px;
+  height:200px;
+}
+  
