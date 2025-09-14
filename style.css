@@ -63,8 +63,39 @@ header nav a:hover {
   border-radius: 10px;
 }
 
-.about img{
+/* .about img{
   width:200px;
   height:200px;
 }
-  
+   */
+.about-section {
+  text-align: center;
+  padding: 50px 20px;
+  background: #fff8f0;
+  border-radius: 12px;
+  margin: 30px auto;
+  width: 80%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.about-section h2 {
+  font-size: 32px;
+  color: #e63946;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.8;
+  margin: 15px 0;
+}
+
+.about-section img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px 0;
+  border: 5px solid #e63946;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
