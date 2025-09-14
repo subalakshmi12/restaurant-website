@@ -5,11 +5,18 @@ body {
   text-align: center;
 }
 
-header {
+/* header {
   background: #e63946;
   color: white;
   padding: 15px;
+} */
+header {
+  background: linear-gradient(90deg, #e63946, #ff9800, #ffcc00);
+  color: white;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
+
 
 header nav a {
   margin: 0 15px;
@@ -48,26 +55,6 @@ header nav a:hover {
   border-radius: 10px;
 }
 
-
-.menu1 {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 20px;
-}
-
-.menu1 div {
-  background: #f8f9fa;
-  padding: 15px;
-  border-radius: 10px;
-  width: 250px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
-.menu1 img {
-  width: 100%;
-  border-radius: 10px;
-}
 .about img{
   width:200px;
   height:200px;
